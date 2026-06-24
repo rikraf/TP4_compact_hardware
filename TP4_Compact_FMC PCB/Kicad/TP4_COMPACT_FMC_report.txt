@@ -1,0 +1,49 @@
+PCB statistics report
+=====================
+- Date: 3/4/2026 1:41:39 PM
+- Project: TP4_COMPACT_FMC
+- Board name: TP4_COMPACT_FMC
+
+Board
+-----
+- Width: 4.7217 in
+- Height: 3.1890 in
+- Area: 15.0572 in²
+
+Pads
+----
+- Through hole: 12
+- SMD: 815
+- Connector: 0
+- NPTH: 4
+
+Vias
+----
+- Through vias: 451
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |         29 |         0 |    29 |
+|Unspecified:  |         23 |         1 |    24 |
+|Total:        |         52 |         1 |    53 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer |    Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|---------------|
+|   345 | Round | 0.0080 in | 0.0080 in |    PTH |     Via |  Top Solder | Bottom Solder |
+|    86 | Round | 0.0100 in | 0.0100 in |    PTH |     Via |  Top Solder | Bottom Solder |
+|    18 | Round | 0.0118 in | 0.0118 in |    PTH |     Via |  Top Solder | Bottom Solder |
+|     9 | Round | 0.0354 in | 0.0354 in |    PTH |     Pad |  Top Solder | Bottom Solder |
+|     2 | Round | 0.0689 in | 0.0689 in |   NPTH |     Pad |  Top Solder | Bottom Solder |
+|     2 | Round | 0.0283 in | 0.0283 in |    PTH |     Pad |  Top Solder | Bottom Solder |
+|     2 | Round | 0.0500 in | 0.0500 in |   NPTH |     Pad |  Top Solder | Bottom Solder |
+|     2 | Round | 0.1250 in | 0.1250 in |    PTH |     Via |  Top Solder | Bottom Solder |
+|     1 | Round | 0.0327 in | 0.0327 in |    PTH |     Pad |  Top Solder | Bottom Solder |

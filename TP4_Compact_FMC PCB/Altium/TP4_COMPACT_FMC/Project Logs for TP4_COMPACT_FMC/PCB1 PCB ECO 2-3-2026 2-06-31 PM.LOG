@@ -1,0 +1,200 @@
+Removed Pin From Net: NetName=GND Pin=J2-A1
+Removed Pin From Net: NetName=SERIAL_OUT0_T_P Pin=J2-A2
+Removed Pin From Net: NetName=SERIAL_OUT0_T_N Pin=J2-A3
+Removed Pin From Net: NetName=GND Pin=J2-A4
+Removed Pin From Net: NetName=SERIAL_OUT1_T_P Pin=J2-A5
+Removed Pin From Net: NetName=SERIAL_OUT1_T_N Pin=J2-A6
+Removed Pin From Net: NetName=GND Pin=J2-A7
+Removed Pin From Net: NetName=SERIAL_OUT3_T_P Pin=J2-A8
+Removed Pin From Net: NetName=SERIAL_OUT3_T_N Pin=J2-A9
+Removed Pin From Net: NetName=GND Pin=J2-A10
+Removed Pin From Net: NetName=SERIAL_OUT3_B_P Pin=J2-A11
+Removed Pin From Net: NetName=SERIAL_OUT3_B_N Pin=J2-A12
+Removed Pin From Net: NetName=GND Pin=J2-A13
+Removed Pin From Net: NetName=SERIAL_OUT0_B_P Pin=J2-A14
+Removed Pin From Net: NetName=SERIAL_OUT0_B_N Pin=J2-A15
+Removed Pin From Net: NetName=GND Pin=J2-A16
+Removed Pin From Net: NetName=SERIAL_OUT2_B_P Pin=J2-A17
+Removed Pin From Net: NetName=SERIAL_OUT2_B_N Pin=J2-A18
+Removed Pin From Net: NetName=GND Pin=J2-A19
+Removed Pin From Net: NetName=TPX4_RefClk_P Pin=J2-A20
+Removed Pin From Net: NetName=TPX4_RefClk_N Pin=J2-A21
+Removed Pin From Net: NetName=GND Pin=J2-A22
+Removed Pin From Net: NetName=TESTOUT_B_P Pin=J2-A23
+Removed Pin From Net: NetName=TESTOUT_B_N Pin=J2-A24
+Removed Pin From Net: NetName=GND Pin=J2-A25
+Removed Pin From Net: NetName=TESTOUT_T_P Pin=J2-A26
+Removed Pin From Net: NetName=TESTOUT_T_N Pin=J2-A27
+Removed Pin From Net: NetName=GND Pin=J2-A28
+Removed Pin From Net: NetName=3V3 Pin=J2-A29
+Removed Pin From Net: NetName=SC_CLOCK_IN_B_P Pin=J2-A30
+Removed Pin From Net: NetName=SC_CLOCK_IN_B_N Pin=J2-A31
+Removed Pin From Net: NetName=GND Pin=J2-A32
+Removed Pin From Net: NetName=SC_DATA_OUT_B_P Pin=J2-A33
+Removed Pin From Net: NetName=SC_DATA_OUT_B_N Pin=J2-A34
+Removed Pin From Net: NetName=RESET_B_P Pin=J2-A36
+Removed Pin From Net: NetName=RESET_B_N Pin=J2-A37
+Removed Pin From Net: NetName=1V5DIG Pin=J2-A38
+Removed Pin From Net: NetName=TO_SYNC_B_P Pin=J2-A39
+Removed Pin From Net: NetName=TO_SYNC_B_N Pin=J2-A40
+Removed Pin From Net: NetName=1V5DIG Pin=J2-A41
+Removed Pin From Net: NetName=I2C_SCL Pin=J2-A42
+Removed Pin From Net: NetName=GND Pin=J2-B1
+Removed Pin From Net: NetName=SERIAL_OUT2_T_P Pin=J2-B2
+Removed Pin From Net: NetName=SERIAL_OUT2_T_N Pin=J2-B3
+Removed Pin From Net: NetName=GND Pin=J2-B4
+Removed Pin From Net: NetName=SERIAL_OUT4_T_P Pin=J2-B5
+Removed Pin From Net: NetName=SERIAL_OUT4_T_N Pin=J2-B6
+Removed Pin From Net: NetName=GND Pin=J2-B7
+Removed Pin From Net: NetName=SERIAL_OUT4_B_P Pin=J2-B8
+Removed Pin From Net: NetName=SERIAL_OUT4_B_N Pin=J2-B9
+Removed Pin From Net: NetName=GND Pin=J2-B10
+Removed Pin From Net: NetName=SERIAL_OUT1_B_P Pin=J2-B11
+Removed Pin From Net: NetName=SERIAL_OUT1_B_N Pin=J2-B12
+Removed Pin From Net: NetName=GND Pin=J2-B13
+Removed Pin From Net: NetName=SERIAL_OUT5_T_P Pin=J2-B14
+Removed Pin From Net: NetName=SERIAL_OUT5_T_N Pin=J2-B15
+Removed Pin From Net: NetName=GND Pin=J2-B16
+Removed Pin From Net: NetName=SERIAL_OUT5_B_P Pin=J2-B17
+Removed Pin From Net: NetName=SERIAL_OUT5_B_N Pin=J2-B18
+Removed Pin From Net: NetName=GND Pin=J2-B19
+Removed Pin From Net: NetName=SHUTTER_B_P Pin=J2-B20
+Removed Pin From Net: NetName=SHUTTER_B_N Pin=J2-B21
+Removed Pin From Net: NetName=GND Pin=J2-B22
+Removed Pin From Net: NetName=SPARE0 Pin=J2-B23
+Removed Pin From Net: NetName=SPARE1 Pin=J2-B24
+Removed Pin From Net: NetName=GND Pin=J2-B25
+Removed Pin From Net: NetName=SPARE2 Pin=J2-B26
+Removed Pin From Net: NetName=SPARE3 Pin=J2-B27
+Removed Pin From Net: NetName=GND Pin=J2-B28
+Removed Pin From Net: NetName=GND Pin=J2-B29
+Removed Pin From Net: NetName=SC_CLOCK_OUT_B_P Pin=J2-B30
+Removed Pin From Net: NetName=SC_CLOCK_OUT_B_N Pin=J2-B31
+Removed Pin From Net: NetName=GND Pin=J2-B32
+Removed Pin From Net: NetName=SC_DATA_IN_B_P Pin=J2-B33
+Removed Pin From Net: NetName=SC_DATA_IN_B_N Pin=J2-B34
+Removed Pin From Net: NetName=GND Pin=J2-B35
+Removed Pin From Net: NetName=DIGITALPIXEL0_T Pin=J2-B36
+Removed Pin From Net: NetName=DIGITALPIXEL1_T Pin=J2-B37
+Removed Pin From Net: NetName=1V5AN Pin=J2-B38
+Removed Pin From Net: NetName=DIGITALPIXEL0_B Pin=J2-B39
+Removed Pin From Net: NetName=DIGITALPIXEL1_B Pin=J2-B40
+Removed Pin From Net: NetName=1V5AN Pin=J2-B41
+Removed Pin From Net: NetName=I2C_SDA Pin=J2-B42
+Change Component Footprint: Designator=J2 Old Footprint=SAMTEC_HSEC6-042-01-S-RA-WT-X New Footprint=MEC5-050-01-L-DV-W1-K-TR
+Change Component Comment : Designator=J2 Old Comment=HSEC6-042-01-S-RA-WT-X New Comment=MEC5-050-01-L-DV-W1-K-TR
+Change Component Comment : Designator=L2 Old Comment=Inductor Iron New Comment=Wurth 744316033
+Change Component Comment : Designator=L3 Old Comment=Inductor Iron New Comment=Wurth 744316033
+Change component parameters: Designator = "J2" ("J2"); Footprint = "SAMTEC_HSEC6-042-01-S-RA-WT-X"; UniqueID = "\DWLUPNLK" ("\DWLUPNLK")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MEC5-050-01-L-DV-W1-K-TR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "Inductor_5.6mm"; UniqueID = "\RVEUSHON" ("\RVEUSHON")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderNo"; Value = "DK 732-6173-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.9 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "330nH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L3" ("L3"); Footprint = "Inductor_5.6mm"; UniqueID = "\HYFRCMYC" ("\HYFRCMYC")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderNo"; Value = "DK 732-6173-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.9 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "330nH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=SERIAL_OUT0_T_P Pin=J2-3
+Added Pin To Net: NetName=SERIAL_OUT2_T_P Pin=J2-4
+Added Pin To Net: NetName=SERIAL_OUT0_T_N Pin=J2-5
+Added Pin To Net: NetName=SERIAL_OUT2_T_N Pin=J2-6
+Added Pin To Net: NetName=GND Pin=J2-7
+Added Pin To Net: NetName=GND Pin=J2-8
+Added Pin To Net: NetName=SERIAL_OUT1_T_P Pin=J2-9
+Added Pin To Net: NetName=SERIAL_OUT4_T_P Pin=J2-10
+Added Pin To Net: NetName=SERIAL_OUT1_T_N Pin=J2-11
+Added Pin To Net: NetName=SERIAL_OUT4_T_N Pin=J2-12
+Added Pin To Net: NetName=GND Pin=J2-13
+Added Pin To Net: NetName=GND Pin=J2-14
+Added Pin To Net: NetName=SERIAL_OUT3_T_P Pin=J2-15
+Added Pin To Net: NetName=SERIAL_OUT4_B_P Pin=J2-16
+Added Pin To Net: NetName=SERIAL_OUT3_T_N Pin=J2-17
+Added Pin To Net: NetName=SERIAL_OUT4_B_N Pin=J2-18
+Added Pin To Net: NetName=GND Pin=J2-19
+Added Pin To Net: NetName=GND Pin=J2-20
+Added Pin To Net: NetName=SERIAL_OUT3_B_P Pin=J2-21
+Added Pin To Net: NetName=SERIAL_OUT1_B_P Pin=J2-22
+Added Pin To Net: NetName=SERIAL_OUT3_B_N Pin=J2-23
+Added Pin To Net: NetName=SERIAL_OUT1_B_N Pin=J2-24
+Added Pin To Net: NetName=GND Pin=J2-25
+Added Pin To Net: NetName=GND Pin=J2-26
+Added Pin To Net: NetName=SERIAL_OUT0_B_P Pin=J2-27
+Added Pin To Net: NetName=SERIAL_OUT5_T_P Pin=J2-28
+Added Pin To Net: NetName=SERIAL_OUT0_B_N Pin=J2-29
+Added Pin To Net: NetName=SERIAL_OUT5_T_N Pin=J2-30
+Added Pin To Net: NetName=GND Pin=J2-31
+Added Pin To Net: NetName=GND Pin=J2-32
+Added Pin To Net: NetName=SERIAL_OUT2_B_P Pin=J2-33
+Added Pin To Net: NetName=SERIAL_OUT5_B_P Pin=J2-34
+Added Pin To Net: NetName=SERIAL_OUT2_B_N Pin=J2-35
+Added Pin To Net: NetName=SERIAL_OUT5_B_N Pin=J2-36
+Added Pin To Net: NetName=GND Pin=J2-37
+Added Pin To Net: NetName=GND Pin=J2-38
+Added Pin To Net: NetName=TPX4_RefClk_P Pin=J2-39
+Added Pin To Net: NetName=SHUTTER_B_P Pin=J2-40
+Added Pin To Net: NetName=TPX4_RefClk_N Pin=J2-41
+Added Pin To Net: NetName=SHUTTER_B_N Pin=J2-42
+Added Pin To Net: NetName=GND Pin=J2-43
+Added Pin To Net: NetName=GND Pin=J2-44
+Added Pin To Net: NetName=TESTOUT_B_P Pin=J2-45
+Added Pin To Net: NetName=SPARE0 Pin=J2-46
+Added Pin To Net: NetName=TESTOUT_B_N Pin=J2-47
+Added Pin To Net: NetName=SPARE1 Pin=J2-48
+Added Pin To Net: NetName=GND Pin=J2-49
+Added Pin To Net: NetName=GND Pin=J2-50
+Added Pin To Net: NetName=TESTOUT_T_P Pin=J2-51
+Added Pin To Net: NetName=SPARE2 Pin=J2-52
+Added Pin To Net: NetName=TESTOUT_T_N Pin=J2-53
+Added Pin To Net: NetName=SPARE3 Pin=J2-54
+Added Pin To Net: NetName=GND Pin=J2-55
+Added Pin To Net: NetName=GND Pin=J2-56
+Added Pin To Net: NetName=3V3 Pin=J2-59
+Added Pin To Net: NetName=GND Pin=J2-60
+Added Pin To Net: NetName=SC_CLOCK_IN_B_P Pin=J2-61
+Added Pin To Net: NetName=SC_CLOCK_OUT_B_P Pin=J2-62
+Added Pin To Net: NetName=SC_CLOCK_IN_B_N Pin=J2-63
+Added Pin To Net: NetName=SC_CLOCK_OUT_B_N Pin=J2-64
+Added Pin To Net: NetName=GND Pin=J2-65
+Added Pin To Net: NetName=GND Pin=J2-66
+Added Pin To Net: NetName=SC_DATA_OUT_B_P Pin=J2-67
+Added Pin To Net: NetName=SC_DATA_IN_B_P Pin=J2-68
+Added Pin To Net: NetName=SC_DATA_OUT_B_N Pin=J2-69
+Added Pin To Net: NetName=SC_DATA_IN_B_N Pin=J2-70
+Added Pin To Net: NetName=GND Pin=J2-72
+Added Pin To Net: NetName=RESET_B_P Pin=J2-73
+Added Pin To Net: NetName=DIGITALPIXEL0_T Pin=J2-74
+Added Pin To Net: NetName=RESET_B_N Pin=J2-75
+Added Pin To Net: NetName=DIGITALPIXEL1_T Pin=J2-76
+Added Pin To Net: NetName=1V5DIG Pin=J2-77
+Added Pin To Net: NetName=TO_SYNC_B_P Pin=J2-79
+Added Pin To Net: NetName=DIGITALPIXEL0_B Pin=J2-80
+Added Pin To Net: NetName=TO_SYNC_B_N Pin=J2-81
+Added Pin To Net: NetName=DIGITALPIXEL1_B Pin=J2-82
+Added Pin To Net: NetName=1V5DIG Pin=J2-83
+Added Pin To Net: NetName=I2C_SCL Pin=J2-85
+Added Pin To Net: NetName=I2C_SDA Pin=J2-86
+Add Pin To Net: Unknown Pin: Pin J3-4
+Add Pin To Net: Unknown Pin: Pin J3-5
+Add Pin To Net: Unknown Pin: Pin J5-4
+Add Pin To Net: Unknown Pin: Pin J5-5
+Added Pin To Net: NetName=NetJ2_78 Pin=J2-78
+Added Pin To Net: NetName=NetJ2_78 Pin=J2-84
+Added Net: Name=NetJ2_78

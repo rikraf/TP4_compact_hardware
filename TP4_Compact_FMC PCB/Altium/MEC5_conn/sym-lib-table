@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "MEC5_conn-altium-import")(type "KiCad")(uri "${KIPRJMOD}/MEC5_conn-altium-import.kicad_sym")(options "")(descr ""))
+)
