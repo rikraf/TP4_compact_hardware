@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Single_ETU-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Single_ETU-altium-import.kicad_sym")(options "")(descr ""))
+)

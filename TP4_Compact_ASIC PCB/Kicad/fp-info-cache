@@ -1,4 +1,4 @@
-27274031754302902
+27281566947764607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70559,6 +70559,20 @@ SAMTEC_ASP_184330_01
 0
 560
 560
+Kicad RR Libs
+Single_WB_pad
+
+
+0
+1
+1
+Kicad RR Libs
+Untitled
+
+
+0
+1
+1
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -96362,6 +96376,13 @@ hole_1.2mm
 0
 0
 RR_mech
+hole_1.7mm
+
+
+0
+0
+0
+RR_mech
 hole_2.4mm
 
 
@@ -100820,258 +100841,174 @@ Logo WEEE
 0
 0
 0
-TP4_ASIC
+TP4_WB_import
 1608[0603]
 
 
 0
 2
 2
-TP4_ASIC
-1608[0603]_2
+TP4_WB_import
+ASP-134488-01
 
 
 0
-2
-2
-TP4_ASIC
+400
+400
+TP4_WB_import
 C0805
-Chip Capacitor, Body 2.0x1.3mm, IPC High Density
+
 
 0
 2
 2
-TP4_ASIC
+TP4_WB_import
 C1210_M
-Chip Capacitor, Body 3.2x2.5mm, IPC Low Density
+
 
 0
 2
 2
-TP4_ASIC
+TP4_WB_import
 CAP_0201
 
 
 0
 2
 2
-TP4_ASIC
+TP4_WB_import
 DCT8
 
 
 0
 8
 8
-TP4_ASIC
+TP4_WB_import
 DFN8_2X3_STM
 
 
 0
 9
 9
-TP4_ASIC
+TP4_WB_import
 DO-219AD
-DO-219AD aka MicroSMP
+
 
 0
 2
 2
-TP4_ASIC
+TP4_WB_import
 DRL6
 
 
 0
 6
 6
-TP4_ASIC
-HV_bond_pad
-Bonding site for high voltage bias to Timepix
+TP4_WB_import
+HDR1X2
+
+
+0
+2
+2
+TP4_WB_import
+HDR1X3
+
+
+0
+3
+3
+TP4_WB_import
+HDR2X3
+
+
+0
+6
+6
+TP4_WB_import
+HDR_1X2_SMT_050
+
+
+0
+2
+2
+TP4_WB_import
+HDR_2X2_SMT
+
+
+0
+4
+4
+TP4_WB_import
+HDR_2x3
+
+
+0
+6
+6
+TP4_WB_import
+HV_BOND_PAD
+
 
 0
 1
 1
-TP4_ASIC
+TP4_WB_import
 HV_solder_pad
-wire soldering site for high voltage bias to Timepix
+
 
 0
 1
 1
-TP4_ASIC
+TP4_WB_import
 IND_1206
-Chip Inductor, 2-Leads, Body 3.20x1.60mm, IPC Low Density
+
 
 0
 2
 2
-TP4_ASIC
-Pin1
-
-
-0
-1
-1
-TP4_ASIC
+TP4_WB_import
 QFN16_3x3_mm
 
 
 0
 17
 17
-TP4_ASIC
+TP4_WB_import
 RGR0020A
 
 
 0
 25
-22
-TP4_ASIC
-SAMTEC_HSEC6-042-01-S-DV-WT-TR
+21
+TP4_WB_import
+SC70-5_ONS-L
 
 
 0
-87
-87
-TP4_ASIC
-Single_WB_pad
+5
+5
+TP4_WB_import
+SOT23-3_ONS-M
 
 
 0
-1
-1
-TP4_ASIC
+3
+3
+TP4_WB_import
 TP
 
 
 0
 1
 1
-TP4_ASIC
+TP4_WB_import
 Timepix4_WB_bands
-Pixelated chip
+
 
 0
-414
 294
-TP4_ASIC
-Timepix4_WB_nocaps
-Pixelated chip
-
-0
-295
-295
-TP4_ASIC
-Turret_terminal
-
-
-0
-1
-1
-TP4_ASIC
-circle_64mm
-
-
-0
-0
-0
-TP4_FMC
-1206
-Chip Capacitor; Body 3.2 x 1.6 mm (LxW typ)
-
-0
-2
-2
-TP4_FMC
-CAP0805
-
-
-0
-2
-2
-TP4_FMC
-HDR1X8
-
-
-0
-8
-8
-TP4_FMC
-Inductor_5.6mm
-
-
-0
-2
-2
-TP4_FMC
-LED0603
-
-
-0
-2
-2
-TP4_FMC
-LTC3636EUFDPBF
-
-
-0
-34
-34
-TP4_FMC
-MEC5-050-01-L-DV-W1-K-TR
-
-
-0
-104
-104
-TP4_FMC
-Pin1
-
-
-0
-1
-1
-TP4_FMC
-SAMTEC_ASP_184330_01
-
-
-0
-560
-560
-TP4_FMC
-SMA_Vert
-SMA, Jack, SMT, Vertical
-
-0
-5
-3
-TP4_FMC
-SOIC127P600X175-8N
-
-
-0
-8
-8
-TP4_FMC
-SOP50P490X110-10N
-
-
-0
-10
-10
-TP4_FMC
-SOT95P237X112-3N
-
-
-0
-3
-3
-TP4_FMC
-osc_7mm_5mm
-
-
-0
-7
-6
+294
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FMC_EPROMDATA memory_size = "2000">
+	<area number ="1" pos_of_len_field = "2">
+		<field name= "Board Area Format version" type="binary" content="00000001" description= "Indentifies language used"  has_typelen = "no" />
+		<field name= "Language" type="binary" content=  "00000001" description= "Indentifies language used"  has_typelen = "no" />
+		<field name= "Mfg. Date/Time"  type="binary" content="00000010 01010101" description="Num of mins from 00:00hrs 1/1/96 - little endian" has_typelen = "no" />
+		<field name= "Board_manufacturer"  type="ascii" content="CERN" description="the manufacturer of the board" has_typelen = "yes" />
+		<field name= "Board product name"  type="ascii" content="ADC 200k 16bit" description="name of the board" has_typelen = "yes" />
+		<field name= "Board_serial_number"  type="binary" content="00000000" description="serial number for board" has_typelen = "yes" />
+		<field name= "Board_part_number"  type="ascii" content="Desired input" description= "Part number for the board" has_typelen = "yes"/>
+		<field name= "FRU File ID"  type="ascii" content="User dependant" description= "User desired - identification of EEPROM info source" has_typelen = "yes"/>
+		<field name= "Custom Mfg fields"  type="ascii" content="Userdependant" description= "Delete if undesired" has_typelen = "yes"/>
+	</area>
+	<area number ="5" pos_of_len_field = "0">
+		<multirecord name= "DC_LOAD" multi_record_num  = "1">
+			<field name= "DC Load number"   type="binary"  content=  "00000001"  description= "DC load multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage" type="signed_short" content=  "+0.00" description= "Nominal voltage for Vadj"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content="+0.00" description="Spec'd min voltage for Vadj" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content="+0.00" description="Spec'd max voltage for Vadj" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for vadj" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for Vadj" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for Vadj" has_typelen = "no"/>
+		</multirecord>
+
+		<multirecord name= "DC_LOAD" multi_record_num  = "2" >
+			<field name= "DC load number" type="binary" content="00000001"  description= "DC output multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage" type="signed_short" content=  "+0.00" description= "Nominal voltage for 3P3V"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content="+0.00" description="Spec'd min voltage for 3P3V" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content="+0.00" description="Spec'd max voltage for 3P3V" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for 3P3V" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for 3P3V" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for 3P3V" has_typelen = "no" />
+		</multirecord>
+		
+		<multirecord name= "DC_LOAD" multi_record_num  = "3" >
+			<field name= "DC load number"   type="binary"  content=  "00000011"  description= "DC output multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage" type="signed_short" content= "+0.00" description= "Nominal voltage for 12P0V"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content = "+0.00" description="Spec'd min voltage for 12P0V" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content = "+0.00" description="Spec'd max voltage for 12P0V" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for 12P0V" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for 12P0V" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for 12P0V" has_typelen = "no" />
+		</multirecord>
+		
+		<multirecord name= "DC_OUTPUT" multi_record_num  = "1" >
+			<field name= "DC Output number"   type="binary"  content=  "00000001"  description= "DC output multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage" type="signed_short" content=  "+0.00" description= "Nominal voltage for VIO_R_M2C"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content = "+0.00" description="Spec'd min voltage for VIO_R_M2C" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content = "+0.00" description="Spec'd max voltage for VIO_R_M2C" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for VIO_R_M2C" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for VIO_R_M2C" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for VIO_R_M2C" has_typelen = "no" />
+		</multirecord>
+
+		<multirecord name= "DC_OUTPUT" multi_record_num  = "2" >
+			<field name= "DC Output number"   type="binary"  content=  "00000010"  description= "DC output multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage"   type="signed_short"  content=  "+0.00"  description= "Nominal voltage for VREF_A_M2C"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content = "+0.00" description="Spec'd min voltage for VREF_A_M2C" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content = "+0.00" description="Spec'd max voltage for VREF_A_M2C" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for VREF_A_M2C" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for VREF_A_M2C" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for VREF_A_M2C" has_typelen = "no" />
+		</multirecord>
+
+		<multirecord name= "DC_OUTPUT" multi_record_num  = "3" >
+			<field name= "DC Output number"   type="binary"  content=  "00000001"  description= "DC output multirecord number"  has_typelen = "no" />
+			<field name= "Nominal Voltage" type="signed_short" content=  "+0.00" description= "Nominal voltage for VREF_A_M2C"  has_typelen = "no" />
+			<field name="min_v"  type="signed_short" content = "+0.00" description="Spec'd min voltage for VREF_A_M2C" has_typelen = "no" />
+			<field name="max_v"  type="signed_short" content = "+0.00" description="Spec'd max voltage for VREF_A_M2C" has_typelen = "no" />
+			<field name="ripple_pk_pk"  type="signed_short" content="+0.00" description="Spec'd Ripple and noise pk - pk for VREF_A_M2C" has_typelen = "no" />
+			<field name="min_current"  type="signed_short" content="+0.00" description="Spec'd min current load for VREF_A_M2C" has_typelen = "no" />
+			<field name="max_current"  type="signed_short" content="+0.00" description= "Spec'd min current load for VREF_A_M2C" has_typelen = "no" />
+		</multirecord>
+		
+		<multirecord name= "OEM_record" multi_record_num  = "1" >
+			<byteField name ="OEM Bytefield 1" >
+				<field name= "Subtype"  type="binary"  content=  "0000"  description= "0 for main definition type"  has_typelen = "no" />
+				<field name= "Version"  type="binary"  content=  "0000"  description= "0 for current version"  has_typelen = "no" />
+			</byteField>
+			<byteField name ="OEM Bytefield 2" >
+				<field name= "Module Size" type="binary"  content=  "00"  description= "Single width = 00, Double = 01"  has_typelen = "no" />
+				<field name= "P1 Connector Size" type="binary"  content=  "00"  description= "LPC connecter = 01 HPC connecter =00"  has_typelen = "no" />
+				<field name= "P2 Connector Size"  type="binary"  content=  "00"  description= "Same as above, or Not fitted =11" has_typelen = "no" />
+				<field name= "Clock Direction"  type="binary"  content=  "0"  description= "Mez to carrier = 0,Carrier to Mez =1" has_typelen = "no" />
+				<field name= "Reserved"  type="binary"  content=  "0"  description= "Reserved, by FMC standard" has_typelen = "no" />
+			</byteField>
+			<field name="P1 Bank A number of signals"  type="binary"  content="00000000" description= "Binary num of size byte" has_typelen = "no" />
+			<field name="P1 Bank B number of signals"  type="binary"  content="00000000" description= "Binary num of size byte"  has_typelen = "no" />
+			<field name="P2 Bank A number of signals"  type="binary"  content="00000000" description= "Binary num of size byte" has_typelen = "no" />
+			<field name="P2 Bank B number of signals"  type="binary"  content="00000000" description= "Binary num of size byte"  has_typelen = "no" />
+			<byteField name ="OEM Bytefield 3" >
+				<field name="P1 GBT Number Transsceivers"  type="binary"  content="0000" description= "Binary num of size 4 bits"  has_typelen = "no" />
+				<field name="P2 GBT Number Transsceivers"  type="binary"  content="0000" description= "Binary num of size 4 bits"  has_typelen = "no" />
+			</byteField>
+			<field name="Max clock for TCK"  type="binary"  content="00000000" description= "Binary num of size byte"  has_typelen = "no" />
+		</multirecord>
+	</area>
+</FMC_EPROMDATA>

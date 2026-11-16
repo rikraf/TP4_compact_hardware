@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "TP4_compact_ASIC-altium-import")(type "KiCad")(uri "${KIPRJMOD}/TP4_compact_ASIC-altium-import.kicad_sym")(options "")(descr ""))
+)

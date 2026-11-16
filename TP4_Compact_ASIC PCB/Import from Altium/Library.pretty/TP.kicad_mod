@@ -1,0 +1,119 @@
+(footprint "TP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.294387 2.8956 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8b454e34-ad43-43b7-bb87-1d3df49ad37d")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "TP"
+		(at 0.26629 3.089402 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0ea52ed4-d782-4e61-b7f0-cafa02a683e6")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c34efcd2-4f9d-4a4a-866e-01e5accbecd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f1eabe-d37e-43e3-bfe1-f84a779dfbe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.39699 -1.651)
+		(end 1.39701 -1.651)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b85af076-9c0f-4548-abb6-89010abf8580")
+	)
+	(fp_line
+		(start -1.39699 1.143)
+		(end -1.39699 -1.651)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "806688ad-ffac-42de-b822-a2f88bfc0f81")
+	)
+	(fp_line
+		(start -1.39699 1.143)
+		(end 1.39701 1.143)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bf697ac-ae20-4632-b31d-62ce23a39702")
+	)
+	(fp_line
+		(start 1.39701 1.143)
+		(end 1.39701 -1.651)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "698f6c44-3582-438d-bd92-240fce4ae78e")
+	)
+	(pad "1" thru_hole rect
+		(at 0.00001 -0.254)
+		(size 2.032 2.032)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16eae7ca-05f1-4aac-bde0-f2a5c26ab93f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 2.032 2.032)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 2.032 2.032)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

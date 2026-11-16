@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ebb7450d-94da-4b42-adbb-fece911733cd")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3b42f700-62c5-4760-9eff-44bb2de3ccd1")
 		(property "Sheetname" "FMC_osc"
 			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "TP4_Compact_FMC_Sht1.kicad_sch"
 			(at 25.4 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,11 +64,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fd291afc-c656-4414-b666-89d0774f2f47")
 		(property "Sheetname" "MEC4_power"
 			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +80,8 @@
 		)
 		(property "Sheetfile" "TP4_Compact_FMC_Sht2.kicad_sch"
 			(at 76.2 56.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
